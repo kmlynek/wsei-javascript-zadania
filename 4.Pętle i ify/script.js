@@ -46,3 +46,19 @@ for (let i =0; i<10; i++)
     result += 1;
     console.log(result);
   }
+
+//5
+
+let value = 5;
+
+for (let i=1; i<6; i++)
+  {
+    if (i%2 === 0)
+      {
+      console.log(i + " - parzysta")
+      }
+    else
+      {
+        console.log(i + " - nieparzysta")
+      }
+  }
