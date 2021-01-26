@@ -95,5 +95,14 @@ console.log('min: ', min)
 //3.8
 console.log(exampleArray.reverse());
 
+//4
+
+let numbersArray = [2,5,7,9];
+
+function sumOfArrayNumbers (array){
+  let sum = array.reduce( (x,i) => x+i );
+  console.log(sum);
+}
+sumOfArrayNumbers(numbersArray);
 
 
