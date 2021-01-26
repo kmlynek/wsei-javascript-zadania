@@ -82,3 +82,18 @@ for (let i = 0; i < exampleArray.length; i++){
     }
 }
 console.log('max: ', max);
+
+//3.7
+var min = exampleArray[0];
+for (let i = 0; i < exampleArray.length; i++){
+    if (exampleArray[i] < min){
+        min = exampleArray[i];
+    }
+}
+console.log('min: ', min)
+
+//3.8
+console.log(exampleArray.reverse());
+
+
+
