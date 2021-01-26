@@ -105,4 +105,68 @@ function sumOfArrayNumbers (array){
 }
 sumOfArrayNumbers(numbersArray);
 
+//5
 
+let numbersArray = [1,2,3,4,5,6,7,8,9];
+
+function multiplyArrayByAverage (array){
+    let sum = array.reduce((x,i) => x+i);
+    let average = sum/array.length;
+  
+    array.forEach(item => {
+        console.log(item * average);
+    })
+  
+}
+multiplyArrayByAverage(numbersArray);
+
+//6
+
+let numbersArray = [1,2,3,4,5,6,7,8,9];
+function averageOfEvenNumbers(array) {
+  let evenNumbers = array.filter(item => item % 2 === 0);
+  let sumEvenNumbers = evenNumbers.reduce((i, x) => i + x);
+  let average = sumEvenNumbers/evenNumbers.length;
+  
+  return average
+}
+
+let average = averageOfEvenNumbers(numbersArray);
+console.log(average);
+
+//7
+
+let numbersArray = [3,6,1,2,7,4,16];
+
+function sortArray(array) {
+ return array.sort( (x, y) => x - y);
+
+}
+
+console.log(sumOfArraysIndex(exampleArrayA, exampleArrayB));
+
+//8-deleted
+
+//9
+
+function getArrayWithOppositeSigns(numbers) {
+    const result = [];
+    for(let number of numbers) {
+        result.push(-number);
+    }
+    return result;
+}
+
+console.log(getArrayWithOppositeSigns([1,-2,3]));
+
+//10
+
+let numbersArray = [3,-2,9,1,-6,4,12];
+
+function reverseNumber(array){
+  let newArray = array.map(item => -item);
+  return newArray;
+
+}
+
+reverseNumber(numbersArray);
