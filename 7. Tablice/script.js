@@ -1,3 +1,10 @@
+//1
+
+const exArray = ["a", "b", "c"];
+exArray.forEach(item => {
+  console.log(item);
+  })
+
 //2
 
 var array = ["One", 2,3,4,5,"Six"];
