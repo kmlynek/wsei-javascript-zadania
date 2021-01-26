@@ -15,3 +15,11 @@ console.log(Hello World)
 console.log("Hello World)
 
 //Wyświetlony został pierwszy console.log
+
+//4
+
+var someNumber = 425;
+var someString = "425";
+
+console.log(someNumber == someString);  // true - ma miejsce konwersja typów zmiennych
+console.log(someNumber === someString); // false - inny typ zmiennych
