@@ -37,3 +37,12 @@ for (let i =0; i<10; i++)
   {
     console.log('Lubię JavaScript');
   }
+
+//4
+
+let result = 0;
+for (let i =0; i<10; i++)
+  {
+    result += 1;
+    console.log(result);
+  }
