@@ -9,5 +9,24 @@ if (firstNumber>secondNumber)
   }
 else
   {
-    console.log(secondNumber)
+    console.log(secondNumber);
+  }
+
+//2
+
+let firstNumber = 3;
+let secondNumber = 4;
+let thirdNumber = 5;
+
+if (firstNumber>secondNumber && firstNumber>thirdNumber)
+  {
+    console.log(firstNumber);
+  }
+else if (secondNumber>firstNumber && secondNumber>thirdNumber)
+  {
+    console.log(secondNumebr);
+  }
+else
+  {
+    console.log(thirdNumber);
   }
