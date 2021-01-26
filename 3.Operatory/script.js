@@ -21,3 +21,19 @@ let second = 'second';
 let result = '';
 result = first + second;
 console.log(result);
+
+//4
+
+var someNumber = 425;
+var someString = "425";
+console.log(someNumber == someString);  // true - ma miejsce konwersja typów zmiennych
+console.log(someNumber === someString); // false - inny typ zmiennych
+
+//5
+
+let counter = 30;
+console.log(counter);
+counter++;
+console.log(counter);
+counter--;
+console.log(counter);
