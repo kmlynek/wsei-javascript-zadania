@@ -21,3 +21,20 @@ function returnArray(array) {
 }
 
 returnArray(exampleArray);
+
+//4
+
+function exampleString (paramString) {
+       let i = 0;
+       let myInterval = setInterval(() => {
+           if (i < 5) {
+               console.log(paramString)
+               i++
+           }
+           else {
+               console.log("Koniec")
+               clearInterval(myInterval)
+           }
+       },3000)
+    }
+exampleString('ex.4')
