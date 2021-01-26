@@ -62,3 +62,13 @@ for (let i=1; i<6; i++)
         console.log(i + " - nieparzysta")
       }
   }
+
+//6
+
+for (i = 0; i <= 4; i++)
+{
+    for (j = 0; j <= 5; j++)
+    {
+        console.log("i= " + i + ", j= " + j);
+    }
+} 
