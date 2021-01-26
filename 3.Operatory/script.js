@@ -37,3 +37,11 @@ counter++;
 console.log(counter);
 counter--;
 console.log(counter);
+
+//6
+
+let firstNumber = 3;
+let secondNumber = 6;
+let result = null;
+result = firstNumber>secondNumber;
+console.log(result);
