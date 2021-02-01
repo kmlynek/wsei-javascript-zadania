@@ -9,3 +9,18 @@ let car = {
 console.log(car.name);
 console.log(car.model);
 console.log(car.age);
+
+// 2
+
+let car = {
+    name: 'BMW',
+    model: "M2",
+    age: 10,
+  
+    changeName: function (name) {
+      this.name = name;
+    }
+};
+
+car.changeName("Audi");
+console.log(car.name);
