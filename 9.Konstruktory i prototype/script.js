@@ -30,3 +30,38 @@ wiktoria.changeCity("Warszawa");
 console.log(marek.age);
 console.log(wiktoria.city);
 
+// 2
+
+function Calculator(){
+	this.operationHistory = [];
+	
+	this.sum = (a, b) => {
+		this.operationHistory.push(a + " + " + b);
+		return a + b;
+	};
+	
+	this.substract = (a, b) => {
+		this.operationHistory.push(a + " - " + b);
+		return a - b;
+	};
+	
+	this.divide = (a, b) => {
+		if(b === 0){
+			return "b cannot be 0";
+		}
+		this.operationHistory.push(a + " / " + b);
+		return a / b;
+	};
+	
+	this.multiply = (a, b) => {
+		this.operationHistory.push(a + " * " + b);
+		return a * b;
+	}
+}
+
+let calc1 = new Calculator();
+let calc2 = new Calculator();
+
+calc1.multiply(2, 4);
+calc1.multiply(2, 8);
+console.log(calc1.operationHistory);
