@@ -44,3 +44,16 @@ let calculator = {
 calculator.sumArray(exampleArray);
 console.log(calculator.sum);
 
+// 4
+
+let car = {
+    name: 'BMW',
+    model: "E46",
+    age: 12,
+  
+};
+
+Object.keys(car).forEach((item) => {
+    console.log(item + ": " + car[item]);
+  })
+
