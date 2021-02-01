@@ -24,3 +24,23 @@ let car = {
 
 car.changeName("Audi");
 console.log(car.name);
+
+// 3
+
+let exampleArray = [1,2,3,4];
+
+let calculator = {
+
+    sum: 0,
+
+    sumArray: function (array) {
+    this.sum = array.reduce( (i, x) => {
+      return i + x;
+    })
+  }
+
+}
+
+calculator.sumArray(exampleArray);
+console.log(calculator.sum);
+
