@@ -71,3 +71,22 @@ let car = {
 };
 
 console.log(car.engine.type, car.engine.name);
+
+// 6
+
+let car = {
+    name: 'BMW',
+    model: "E46",
+    age: 12,
+    
+    engine: {
+      type: "petrol",
+      name: "M2"
+    }
+};
+
+car.displayHello = function (){
+  console.log("Hello")
+}; 
+
+car.displayHello();
