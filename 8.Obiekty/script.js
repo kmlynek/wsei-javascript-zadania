@@ -57,3 +57,17 @@ Object.keys(car).forEach((item) => {
     console.log(item + ": " + car[item]);
   })
 
+// 5
+
+let car = {
+    name: 'BMW',
+    model: "E46",
+    age: 12,
+    
+    engine: {
+      type: "petrol",
+      name: "M52"
+    }
+};
+
+console.log(car.engine.type, car.engine.name);
